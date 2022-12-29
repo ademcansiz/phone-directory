@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+#container{
+    border-radius: .5rem;
+    padding: 2rem;
+    background-color: dimgray;
+    width: 600px;
+}
+
+input{
+    width: 100%;
+    padding: .35rem 1rem;
+    margin: .25rem;
+    outline: none;
+    border-radius: .25rem;
+    border:none;
+    font-size: 1.25rem;
+}
+.pContacts{
+    padding: 1rem;
+}
+.li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+    font-size: 1.25rem;
+}
+
+.btn{
+    font-size: 1.25rem;
+    padding: .5rem 2rem;
+    margin: .25rem;
+    width: 100%;
+    border: none;
+    background-color:black ;
+    color:whitesmoke;
+    border-radius: .25rem;
+    margin-top: 1rem;
+}
